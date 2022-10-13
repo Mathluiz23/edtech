@@ -1,10 +1,11 @@
 import React from "react";
+import "../css/search.css";
 
 function Search() {
 	return (
 		<form id="formSearchStudent" className="form-search">
 			<input type="text" name="searchInput" id="searchInput" />
-			<button> Pesquisar </button>
+			<button className="search-button"> Pesquisar </button>
 		</form>
 	);
 }
